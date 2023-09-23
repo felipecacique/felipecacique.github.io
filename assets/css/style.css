@@ -1,0 +1,313 @@
+/* Font Setup */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* Color Setup */
+:root{
+    --primary: #3155e7;
+    --primary-dark: #2045d6;
+    --black: #010101;
+    --gray-1: #788190;
+    --gray-2: #d3d4db;
+    --gray-3: #252525;
+    --white: #FFFFFF;
+    --body: #fefefe;
+}
+
+/* Body */
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: var(--body);
+}
+
+/* Navbar */
+.navbar, .navbar-brand{
+    /* border: 1px solid var(--gray-2); */
+    color: var(--black);
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 10px 16px;
+}
+
+.navbar {
+    padding: 32px 0;
+}
+
+.nav-link {
+    margin-left: 21px;
+    font-size: 16px;
+    color: var(--gray-1);
+}
+
+.navbar-brand{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+/* SVG Color */
+.powerfclean-icon {
+    color: #25d366; /* Change to the desired color */
+}
+
+/* first-section */
+section.first-section {
+    padding: 80px 0;
+}
+
+.first-section img, .first-section .home {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section.first-section .text {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 73px;
+    color: var(--primary-dark);
+
+}
+
+section.first-section .subtext {
+    font-size: 26px;
+    color: var(--gray-3);
+    padding-top: 25px;
+
+}
+
+section.first-section .social-icons {
+    font-size: 30px;
+    color: var(--black);
+    padding-top: 25px;
+
+    /* padding-bottom: 35px; */
+}
+
+.whatsapp-icon {
+    color: #25d366;
+}
+
+.whatsapp-icon:hover {
+    color: #14e761;
+}
+.whatsapp-icon2 {
+    padding-top: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.instagram-icon {
+    color: #e4405f;
+}
+
+.instagram-icon:hover{
+    color: #ec0a33;
+}
+
+.envelope-icon {
+    color: #2553d3;
+}
+
+
+
+.icon-info {
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+.buttons {
+    padding-top: 25px;
+}
+
+.buttons .btn {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+/* about-section */
+.about-us-section {
+    padding: 80px 0;
+}
+
+.about-us-section img, .about-us-section .text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-us-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: var(--primary-dark);
+    font-weight: bold;
+}
+
+.about-us-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* services-section */
+section.services-section {
+    padding: 80px 0;
+}
+
+.services-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: var(--primary-dark);
+    font-weight: bold;
+}
+
+.services-section .service {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.services-section .service h4 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+/* galery-section */
+section.galery-section {
+    padding: 80px 0;
+}
+
+.galery-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: var(--primary-dark);
+    font-weight: bold;
+}
+
+.galery-section .galery {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.galery-section .galery h4 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.galery-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Custom CSS for the fixed-height carousel */
+/* .custom-carousel {
+    height: 800px; 
+  } */
+
+  /* Custom CSS for the fixed-height carousel container */
+/* .galery-section {
+    max-height: 1200px;
+    overflow: hidden;
+  } */
+
+/* Contact Us Section */
+.contact-us-section {
+    background-color: var(--primary);
+    color: white;
+    padding: 80px 0;
+}
+
+.contact-us-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-us-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Content Section */
+.content-section {
+    padding: 80px 0;
+}
+
+.content-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.content-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+/* Testimonial section */
+.testimonial-section {
+    padding: 80px 0;
+}
+
+.testimonial-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: var(--primary-dark);
+    font-weight: bold;
+    text-align: center;
+}
+
+.testimonial-card {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testimonial-card h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.testimonial-card p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.testimonial-card .avatar {
+    margin-bottom: 20px;
+}
+
+.testimonial-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+/* Footer Section */
+.footer-section {
+    background-color: var(--primary-dark);
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-section h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer-section p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p.rights-reserved{
+    font-size: 12px;
+    margin-top: 24px;
+}
+
+/* Image Border Rounded */
+img.w-100{
+    border-radius: 20px;
+}
