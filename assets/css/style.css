@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 /* Color Setup */
-:root{
+/* :root{
     --primary: #3155e7;
     --primary-dark: #2045d6;
     --black: #010101;
@@ -11,7 +11,32 @@
     --gray-3: #252525;
     --white: #FFFFFF;
     --body: #fefefe;
+} */
+
+:root{
+    --primary: #3c718d;
+    --primary-dark: #2a679a;
+    --primary-light: #eaf0f1;
+    --black: #031b28;
+    --gray-1: #b0a8a9;
+    --gray-2: #ecedef;
+    --gray-3: #252525;
+    --white: #FFFFFF;
+    --body: #fefefe;
 }
+
+.btn {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+
+.btn:hover{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+
+
 
 /* Body */
 body {
@@ -27,6 +52,7 @@ body {
     font-weight: bold;
     line-height: 20px;
     padding: 10px 16px;
+    /* background-color: var(--primary-light); */
 }
 
 .navbar {
@@ -43,6 +69,11 @@ body {
     font-size: 20px;
     font-weight: bold;
     line-height: 26px;
+}
+
+.powerfclean {
+    color: var(--primary);
+    font-weight: 800;
 }
 
 /* SVG Color */
@@ -84,11 +115,13 @@ section.first-section .social-icons {
 }
 
 .whatsapp-icon {
-    color: #25d366;
+    /* color: #25d366; */
+    color: #6c943e;
 }
 
 .whatsapp-icon:hover {
-    color: #14e761;
+    /* color: #14e761; */
+    color: #7dba37;
 }
 .whatsapp-icon2 {
     padding-top: 5px;
@@ -97,11 +130,13 @@ section.first-section .social-icons {
 }
 
 .instagram-icon {
-    color: #e4405f;
+    /* color: #e4405f; */
+    color: #cd4446;
 }
 
 .instagram-icon:hover{
-    color: #ec0a33;
+    /* color: #ec0a33; */
+    color: #e63d40;
 }
 
 .envelope-icon {
@@ -128,6 +163,7 @@ section.first-section .social-icons {
 
 /* about-section */
 .about-us-section {
+    background-color: var(--primary-light);
     padding: 80px 0;
 }
 
@@ -146,6 +182,10 @@ section.first-section .social-icons {
 .about-us-section p {
     font-size: 18px;
     margin-bottom: 20px;
+}
+
+.about-us-section .icon {
+    color: var(--primary);
 }
 
 /* services-section */
@@ -247,6 +287,7 @@ section.galery-section {
 
 /* Testimonial section */
 .testimonial-section {
+    background-color: var(--primary-light);
     padding: 80px 0;
 }
 
@@ -256,6 +297,10 @@ section.galery-section {
     color: var(--primary-dark);
     font-weight: bold;
     text-align: center;
+}
+
+.testimonial-section h3 {
+    color: var(--primary);
 }
 
 .testimonial-card {
